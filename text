@@ -11,7 +11,7 @@
     <header>
         <h1 class="logo">Portfolio</h1>
         <nav>
-            <a href="#home Page section">Home</a>
+            <a href="#home Page section">Homepage</a>
             <a href="#aboutsection">About</a>
             <a href="#contact">Contact</a>
         </nav>
