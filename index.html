@@ -3,32 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akshat's Portfolio</title>
+    <title>Akshat's Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
         <h1 class="logo">Portfolio</h1>
+
+        <!-- Responsive Menu checkbox to toggle without js and menu toggle to know what icon it is linked to -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+         
+        <!-- Navbar for all the sections it is for all sections how they are used and to diff between diff sections -->
         <nav>
-            <a href="#home Page section">Home</a>
-            <a href="#aboutsection">About</a>
+            <a href="#home">Homepage</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
+     <!-- Section  for similar type of the content and we can place then in diff sections together-->
     <section id="home" class="section home">
-        <h2>Hi, I'm Akshat Singh</h2>
-        <p>Frontend Developer passionate about building clean and responsive websites. My name is Akshat</p>
+        <h2>Hi, I'm <span class="highlight">Akshat Singh</span></h2>
+        <p>Frontend Developer passionate about building clean and responsive websites.</p>
         <a href="#" class="btn">Download CV</a>
     </section>
+
     <section id="about" class="section">
         <h2>About Me</h2>
-        <p>I am a frontend developer who loves creating simpler and good, clean, and responsive websites using HTML, CSS, and JavaScript. I enjoy turning ideas into functional designs and improving my skills every day.</p>
+        <p>I am a frontend developer who loves creating simple, clean, and responsive websites using HTML, CSS, and JavaScript. I enjoy turning ideas into functional designs and improving my skills every day.</p>
     </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>Personal Portfolio</h3>
+                <p>A responsive portfolio website showcasing my work.</p>
+            </div>
+            <div class="card">
+                <h3>Weather App</h3>
+                <p>A simple web app fetching live weather data using APIs.</p>
+            </div>
+            <div class="card">
+                <h3>To-Do List</h3>
+                <p>A task management app built with HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span class="btn">HTML</span>
+            <span class="btn">CSS</span>
+            <span class="btn">JavaScript</span>
+            <span class="btn">React</span>
+            <span class="btn">Git & GitHub</span>
+        </div>
+    </section>
+
     <section id="contact" class="section">
-        <h2>Contacts</h2>
-        <p>Email: akshat88878@gmail.com akshat singh akshat aks </p>
-        <p>Phone: 8887843089</p>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:akshat88878@gmail.com">akshat88878@gmail.com</a></p>
+        <p>Phone: <a href="tel:8887843089">8887843089</a></p>
     </section>
 
 </body>
