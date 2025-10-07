@@ -1,0 +1,8 @@
+{
+  "US Legal Documents": ["court","law","legal","case","lawyer","judge","tax","contract","agreement","patent","copyright","federal","regulations","statutory","criminal","lawsuit","indictment","legislation","statute"],
+  "Festival Documents": ["festival","celebration","event","parade","cultural","holiday","christmas","new year","thanksgiving","diwali","hanukkah","easter","planning","guide","agenda","community","music","arts","performance","program","fair","exhibition"],
+  "Investigations": ["investigation","audit","inspection","forensic","report","review","incident","findings","evidence","analysis","case study"],
+  "US Government Reports": ["federal","state","agency","report","policy","guidelines","legislation","regulations","government","committee","annual","survey","assessment"],
+  "Corporate Reports": ["financial","annual report","quarterly report","board","shareholder","company","business","earnings","management","strategy","budget","investment","performance"],
+  "Research Papers": ["research","study","journal","analysis","paper","publication","methodology","results","conclusion","abstract"]
+}
