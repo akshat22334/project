@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshat's Portfolios website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="logo">Portfolio</h1>
+        <nav>
+            <a href="#home Page section">Homepage</a>
+            <a href="#aboutsection">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home" class="section home">
+        <h2>Hi, I'm Akshat Singh</h2>
+        <p>Frontend Developer passionate about building clean and responsive websites. My name is Akshat</p>
+        <a href="#" class="btn">Download CV</a>
+    </section>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I am a frontend developer who loves creating simple, clean, and responsive websites using HTML, CSS, and JavaScript. I enjoy turning ideas into functional designs and improving my skills every day.</p>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: akshat88878@gmail.com akshat singh</p>
+        <p>Phone: 8887843089</p>
+    </section>
+
+</body>
+</html>
